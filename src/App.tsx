@@ -51,8 +51,8 @@ function App() {
 
 	return (
 		<div className='App'>
-			{isCorrect === true && <div>Nice job! Try again</div>}
-			{isCorrect === false && <div>Wrong answer! Try again</div>}
+			{isCorrect === true && <div className='result'>Nice job! Try again</div>}
+			{isCorrect === false && <div className='result'>Wrong answer! Try again</div>}
 
 			<div
 				id='coloredSquare'

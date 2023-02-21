@@ -11,5 +11,9 @@
 
 button {
 	padding: 5px;
-	margin: auto 3px;
+	margin: auto 5px;
+}
+
+.result {
+	margin-right: 5px;
 }
